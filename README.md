@@ -1,0 +1,1 @@
+# basic_ActiveRecord_skeleton
