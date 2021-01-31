@@ -1,0 +1,16 @@
+development:
+  adapter: sqlite3
+  database: 'db/development.db'
+
+
+#THIS IS A CONFIGURATION FILE FOR ACTIVERECORD
+#WHEN USING RAKE COMMANDS THAT'RE INHERITED FROM GEM &
+#WILL KNOW WHAT KINDA ADAPTER TO USE
+
+#Rake: lets you define a task which then can be executed 
+#from the command line.
+
+#1) 3 main types of 
+    # -development: 
+    # -test: to test & see if certain things pass
+    # -production: is live on the web
